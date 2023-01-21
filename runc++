@@ -1,0 +1,35 @@
+#!/bin/bash
+
+file=$1
+c++ -o $file "$file.cpp" -g
+ex=$?
+if [ $ex == 0 ]
+then
+	echo "runc++ : output file $file generated succesfully."
+	echo "runc++ : moving file $file to bin directory."
+	mv $file ../bin/
+	mvex=$?
+	if [ $mvex != 0 ]
+	then
+		echo "runc++ : creating new directory 'bin'."
+		mkdir ../bin
+		echo "runc++ : new directory 'bin' created."
+		mv $file ../bin/
+		echo "runc++ : moved file $file to bin directory."
+	fi
+	sleep 2
+	clear
+	start=`date +%s%N`
+	../bin/$file
+	end=`date +%s%N`
+	extime=$(((end-start)/1000000))
+	pex=$?
+	if [ $pex != 0 ]
+	then
+		echo "runc++ : program exited with error or unexpectedly stoped execution"
+	else
+		echo "runc++ : program executed in $extime millisecs"
+	fi
+else
+	echo "runc++ : program failed to compile"
+fi
