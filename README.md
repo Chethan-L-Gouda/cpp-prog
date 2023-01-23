@@ -35,3 +35,18 @@
 <b>[Program 33](src/prog33.cpp)</b> : program to concatenate two string<br>
 <b>[Program 34](src/prog34.cpp)</b> : Program to Copy String into Another String<br>
 <b>[Program 35](src/prog35.cpp)</b> : Program to Find Number of Vowels, Consonants, Digits, Spaces in String<br>
+<b>[Program 36](src/prog36.cpp)</b> : Program to Remove Characters in String Except Alphabets<br>
+<b>[Program 37](src/prog37.cpp)</b> : Program to Sort Elements in Lexicographical Order<br>
+<b>[Program 38](src/prog38.cpp)</b> : Program to Swap Two Strings<br>
+<b>[Program 39](src/prog39.cpp)</b> : Program to Convert Lowercase to Uppercase<br>
+<b>[Program 40](src/prog40.cpp)</b> : Program to Convert Uppercase Character to Lowercase<br>
+<b>[Program 41](src/prog41.cpp)</b> : Program to Convert Uppercase String to Lowercase<br>
+<b>[Program 42](src/prog42.cpp)</b> : Program to Remove Spaces from String<br>
+<b>[Program 43](src/prog43.cpp)</b> : Program to Count Words in String<br>
+<b>[Program 44](src/prog44.cpp)</b> : Program to Delete Words from String<br>
+<b>[Program 45](src/prog45.cpp)</b> : Program to Delete Vowels from String<br>
+<b>[Program 46](src/prog46.cpp)</b> : Program to Find Substring in String<br>
+<b>[Program 47](src/prog47.cpp)</b> : Program for Permutation of String<br>
+<b>[Program 48](src/prog48.cpp)</b> : Program to reverse all strings stored in an array<br>
+<b>[Program 49](src/prog49.cpp)</b> : <br>
+<b>[Program 50](src/prog50.cpp)</b> : <br>
